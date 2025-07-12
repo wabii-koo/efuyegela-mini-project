@@ -1,18 +1,23 @@
- Project Summary: Web Dev Blog Using HTML, CSS, JS, and PHP
-Purpose: A simple blog-style website that displays posts and allows user comments.
+# Efuyegela – Web Dev Blog Project
 
-Frontend: Built with HTML, CSS, and JavaScript.
+A simple blog-style web project using **HTML**, **CSS**, **JavaScript**, and a **PHP API**.
 
-Backend: A PHP file (efuyegela.php) serves post data in JSON format.
+## 📁 Project Files
+- `efuyegela.html` – Main page with blog layout and comment form
+- `efuyegela.php` – PHP file serving blog posts as JSON
+- `efuyegela.css` – External styling
+- `efuyegela.js` – JavaScript for fetch and UI logic
+- `webdevelopment.jpg` – Blog header image
 
-Storage: Uses sessionStorage to keep comments and posts temporarily during the browser session.
+## 💡 Features
+- Fetch blog posts (title + passage) from PHP API
+- Add comments (stored temporarily using sessionStorage)
+- Clean responsive design
 
-Hosting: Runs locally using XAMPP in the htdocs/efuyegela/ folder.
+## 🚀 How to Run (with XAMPP)
+1. Copy folder to `C:\xampp\htdocs\`
+2. Start Apache
+3. Open: `http://localhost/efuyegela/efuyegela.html`
 
-Features:
-
-Fetches and displays blog posts (title + passage)
-
-Users can post comments
-
-All posts and comments stay during session, but are not permanent
+## 👨‍💻 Author
+Welebe Kebede Soboka
